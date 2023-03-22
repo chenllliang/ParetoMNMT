@@ -35,7 +35,7 @@ bash inference.sh <checkpoint_dir> # you can change the inferenced directions in
 
 We provide a jupyter notebook `./scripts/3d-vis.ipynb` to visulize the 3d Pareto front after training all models.
 
-The results:
+The result:
 
 <div align=center>
 <b>3d trade-off front of fr10M-de4.6M-zh260k</b>
