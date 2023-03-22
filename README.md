@@ -38,10 +38,11 @@ We provide a jupyter notebook `./scripts/3d-vis.ipynb` to visulize the 3d Pareto
 The results:
 
 <div align=center>
-<b>3d trade-off front of fr10M-de4.6M-zh260k</b>
+<b>3d trade-off front of fr-de-zh with different data-adequacy
+</b>
 <br>
 
-<img width="300" src="./imgs/3d-trade-off.png"/>
+<img  src="./imgs/pareto.png"/>
 
 </div>
 
