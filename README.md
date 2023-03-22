@@ -10,10 +10,9 @@ bash setup.sh
 ```
 
 ## Reproduce the results
-
 We provide the training scripts for reproducing the 2d and 3d trade-off front in our paper.
 
-The training log and checkpoint will be saved at `./logs` and `./checkpoints` directories. 
+We also provide preprocessed binary data at [GoogleDrive](https://drive.google.com/drive/folders/1OudC-Af-TgVSdAqP5JTt7q_qqRmKq3JQ?usp=sharing), which is needed to conduct following training.
 
 ```
 cd scripts
@@ -21,7 +20,7 @@ bash frdezh_trade_off.sh # 3d-trade-off front
 bash frzh_trade_off.sh # 2d-trade-off front
 # you can split the training to different GPU to speed up
 ```
-
+The training log and checkpoint will be saved at `./logs` and `./checkpoints` directories. 
 
 - you can also use the `scripts/inference.sh` to compute the BLEU score of each models 
 
@@ -35,14 +34,13 @@ bash inference.sh <checkpoint_dir> # you can change the inferenced directions in
 
 We provide a jupyter notebook `./scripts/3d-vis.ipynb` to visulize the 3d Pareto front after training all models.
 
-The result:
+The results:
 
 <div align=center>
+<img  src="./imgs/pareto.png"/>
+
 <b>3d trade-off front of fr-de-zh with different data-adequacy
 </b>
-<br>
-
-<img  src="./imgs/pareto.png"/>
 
 </div>
 
