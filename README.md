@@ -1,6 +1,6 @@
 # On the Pareto Front of Multilingual Neural Machine Translation
 
-In this repo, we provide the source code for you to reproduce the collapse of Pareto front phenomena and the visualization result as in our paper.
+In this repo, we provide the source code for you to reproduce the collapse of Pareto front phenomena and the visualization result as in our paper(coming soon~).
 
 ## Environment
 ```
@@ -35,7 +35,7 @@ bash inference.sh <checkpoint_dir> # you can change the inferenced directions in
 
 We provide a jupyter notebook `./scripts/3d-vis.ipynb` to visulize the 3d Pareto front after training all models.
 
-The results:
+The result:
 
 <div align=center>
 <b>3d trade-off front of fr-de-zh with different data-adequacy
