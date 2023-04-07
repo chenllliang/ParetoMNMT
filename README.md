@@ -1,6 +1,6 @@
 # On the Pareto Front of Multilingual Neural Machine Translation
 
-In this repo, we provide the source code for you to reproduce the collapse of Pareto front phenomena and the visualization result as in our paper(coming soon~).
+In this repo, we provide the source code for you to reproduce the collapse of Pareto front phenomena and the visualization result as in our paper (https://arxiv.org/abs/2304.03216).
 
 ## Environment
 ```
