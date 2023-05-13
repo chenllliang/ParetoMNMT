@@ -44,6 +44,21 @@ The results:
 
 </div>
 
+## Citation
+
+Please kindly cite our paper if you find it helpful in your work.
+```bib
+@article{Chen2023OnTP,
+  title={On the Pareto Front of Multilingual Neural Machine Translation},
+  author={Liang Chen and Shuming Ma and Dongdong Zhang and Furu Wei and Baobao Chang},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2304.03216}
+}
+```
+
+
+
 
 
 
