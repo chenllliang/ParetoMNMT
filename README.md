@@ -2,6 +2,8 @@
 
 In this repo, we provide the source code for you to reproduce the collapse of Pareto front phenomena and the visualization result as in our paper (https://arxiv.org/abs/2304.03216).
 
+News: Our work has been accepted to NeurIPS 2023!
+
 ## Environment
 ```
 conda create -n ParetoMNMT python=3.8.15
